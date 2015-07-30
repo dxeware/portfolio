@@ -1,0 +1,146 @@
+body {
+  min-height: 2000px;
+  //padding-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #5a5a5a;
+  background-color: #F8F8F8;
+}
+
+/* Override the Bootstrap default color on hover */
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #996600;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #996600;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #996600;
+  background-color: #e7e7e7;
+}
+
+/* Jumbotron
+------------------------- */
+
+.jumbotron {
+  background: url("../images/oaks.jpg") no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h1{
+  text-align: left;
+  text-indent: 1em;
+  color: white;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  //margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette-image {
+  width: 80px;
+  height: 80px;
+}
+
+.lead > span {
+  color: #996600;
+  font-weight: bold;
+}
+
+.row {
+  margin-top: 4em;
+}
+
+/* Center align the text within the three columns below the carousel */
+.portfolio .col-lg-4 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.portfolio h2 {
+  font-weight: normal;
+}
+.portfolio .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Footer
+------------------------- */
+
+footer {
+  height: 10em;
+  margin: 3em 0 0 0;
+  margin: 0 0 38em 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+  margin: 0 6px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+    margin-top: 120px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+/*@media (max-width: 767px) {
+  .featurette-heading {
+    font-size: 35px;
+  }
+}*/
+
